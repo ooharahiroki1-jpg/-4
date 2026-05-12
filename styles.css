@@ -1879,3 +1879,212 @@ textarea {
     font-size: 14px;
   }
 }
+
+/* Gentle pink theme */
+:root {
+  --color-primary: #eaa0ac;
+  --color-primary-dark: #bf6b7a;
+  --color-mint: #fff0f3;
+  --color-mint-light: #fff8f8;
+  --color-cream: #fff7ef;
+  --color-text: #3b2d2f;
+  --color-heading: #352628;
+  --color-muted: #927d80;
+  --color-white: #ffffff;
+  --color-sage: #a9c7a0;
+  --color-blush: #fff3f5;
+  --color-blush-strong: #f7c9d0;
+  --shadow-soft: 0 12px 32px rgba(166, 79, 95, 0.10);
+  --shadow-panel: 0 18px 48px rgba(166, 79, 95, 0.14);
+}
+
+body {
+  background:
+    radial-gradient(circle at 12% 0%, rgba(255, 214, 221, 0.76), transparent 34%),
+    linear-gradient(180deg, #fff7f8 0%, #fff0f3 100%);
+}
+
+.site-shell {
+  background:
+    linear-gradient(180deg, #fffdfd 0%, #fff7f8 48%, #fff3f5 100%);
+}
+
+@media (min-width: 431px) {
+  .site-shell {
+    box-shadow: 0 0 0 1px rgba(234, 160, 172, 0.12), 0 24px 70px rgba(166, 79, 95, 0.16);
+  }
+}
+
+.logo-icon path:first-child {
+  stroke: var(--color-primary);
+}
+
+.logo-icon path:nth-child(2) {
+  stroke: var(--color-sage);
+}
+
+.site-header {
+  background: rgba(255, 252, 252, 0.96);
+  border-bottom-color: rgba(234, 160, 172, 0.22);
+  box-shadow: 0 8px 26px rgba(166, 79, 95, 0.08);
+}
+
+.reserve-pill,
+.solid-btn,
+.home-page .hero-actions .hero-main-reserve,
+.bottom-action-bar {
+  background: linear-gradient(135deg, #f2b7c1 0%, #d98393 52%, #bd6475 100%);
+}
+
+.reserve-pill,
+.solid-btn,
+.home-page .hero-actions a,
+.bottom-action-bar {
+  box-shadow: 0 14px 32px rgba(166, 79, 95, 0.18);
+}
+
+.drawer {
+  background: rgba(255, 250, 251, 0.99);
+  border-bottom-color: rgba(234, 160, 172, 0.20);
+}
+
+.drawer a,
+.footer-info,
+.timeline-row,
+.menu-row,
+.access-band,
+.contact-form-panel,
+.hours-panel,
+.info-panel,
+.belongings,
+.reservation-bar,
+.payment-panel,
+.menu-band {
+  border-color: rgba(234, 160, 172, 0.18);
+}
+
+.drawer a {
+  border-bottom-color: rgba(234, 160, 172, 0.20);
+}
+
+.page::before,
+.page::after {
+  background: radial-gradient(circle, rgba(247, 201, 208, 0.46), rgba(255, 255, 255, 0));
+}
+
+.leaf {
+  color: var(--color-sage);
+}
+
+.section-band.mint,
+.section-band.wave,
+.policy-strip,
+.form-page,
+.clinic-page,
+.staff-page {
+  background:
+    radial-gradient(circle at 9% 14%, rgba(247, 201, 208, 0.34), transparent 34%),
+    linear-gradient(180deg, #fffdfd 0%, #fff4f6 100%);
+}
+
+.hero-visual,
+.home-page .hero-visual {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 252, 252, 0.99) 44%, rgba(255, 241, 244, 0.76) 70%, rgba(255, 241, 244, 0.18) 100%),
+    linear-gradient(180deg, #ffffff 0%, #fff3f5 100%);
+}
+
+.home-page .hero-visual::before {
+  background: linear-gradient(180deg, rgba(255, 243, 245, 0) 0%, rgba(255, 243, 245, 0.96) 40%, rgba(255, 243, 245, 1) 100%);
+}
+
+.home-page .hero-visual::after {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 252, 252, 0.99) 38%, rgba(255, 245, 247, 0.9) 57%, rgba(255, 241, 244, 0.30) 76%, rgba(255, 241, 244, 0.02) 100%),
+    linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 68%, rgba(255,243,245,0.9) 88%, rgba(255,243,245,1) 100%);
+}
+
+.hero-copy h1 strong,
+.section-head strong,
+.concept-copy strong,
+.menu-title-row h2,
+.reservation-bar h2,
+.contact-form-panel h2,
+.hours-panel h2,
+.access-band h2 {
+  color: #c46f7d;
+}
+
+.home-page .hero-copy h1 {
+  border-bottom-color: rgba(234, 160, 172, 0.65);
+}
+
+.home-page .badge,
+.floating-panel,
+.news-strip,
+.concept-photo,
+.menu-band,
+.soft-btn,
+.price-panel,
+.feature-strip,
+.clinic-gallery,
+.equipment-strip,
+.contact-form-panel,
+.hours-panel,
+.access-band,
+.reservation-bar {
+  box-shadow: 0 16px 38px rgba(166, 79, 95, 0.10);
+}
+
+.home-page .badge,
+.menu-band,
+.soft-btn,
+.line-icon,
+.price-panel,
+.feature-strip,
+.clinic-gallery,
+.equipment-strip,
+.contact-form-panel,
+.hours-panel,
+.access-band,
+.reservation-bar,
+.belongings {
+  background: rgba(255, 255, 255, 0.92);
+  border-color: rgba(234, 160, 172, 0.18);
+}
+
+.soft-btn,
+.home-page .hero-actions .hero-call-reserve {
+  color: var(--color-primary-dark);
+  border-color: rgba(191, 107, 122, 0.42);
+}
+
+.home-page .badge svg,
+.hero-phone-icon,
+.line-icon {
+  color: var(--color-primary);
+  fill: var(--color-primary);
+  stroke: var(--color-primary);
+}
+
+.concept-stage,
+.menu-preview {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(247, 201, 208, 0.36), transparent 32%),
+    linear-gradient(180deg, #fff3f5 0%, #fffdfd 100%);
+}
+
+.menu-preview {
+  background:
+    radial-gradient(circle at 6% 8%, rgba(247, 201, 208, 0.30), transparent 30%),
+    linear-gradient(180deg, #fff9fa 0%, #fff3f5 100%);
+}
+
+.photo-slice,
+.concept-photo,
+.hero-photo,
+.visual-photo img,
+.doctor-stage img,
+.clinic-gallery img {
+  filter: saturate(0.96) brightness(1.05) sepia(0.04);
+}

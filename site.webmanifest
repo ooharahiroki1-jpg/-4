@@ -3,8 +3,8 @@
   "short_name": "岐阜サンプル歯科",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color": "#eef9f6",
-  "theme_color": "#35b7a8",
+  "background_color": "#fff3f5",
+  "theme_color": "#eaa0ac",
   "icons": [
     {
       "src": "assets/favicon.svg",

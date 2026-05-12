@@ -1,0 +1,15 @@
+{
+  "name": "岐阜サンプル歯科",
+  "short_name": "岐阜サンプル歯科",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#eef9f6",
+  "theme_color": "#35b7a8",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
